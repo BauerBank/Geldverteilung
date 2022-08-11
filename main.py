@@ -2,14 +2,8 @@
 
 import copy
 
-
-class Produkt:
-    # Product class to safe the parameters for every product
-    def __init__(self, name, preis, personen):
-        self.name = name
-        self.preis = preis
-        self.personen = personen
-
+# Import the Produkt class
+from produkt import Produkt
 
 # init every list as an empty list
 personenNamen = []
